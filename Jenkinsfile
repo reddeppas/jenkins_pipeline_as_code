@@ -33,7 +33,7 @@ pipeline {
     post {
             always {
                     emailext (
-                    to: 'reddeppa.s@gmail.com',
+                    to: 'test@gmail.com',
                     subject: "${env.JOB_NAME} #${env.BUILD_NUMBER} [${currentBuild.result}]",
                     body: "Build URL: ${env.BUILD_URL}.\n\n",
                     attachLog: true,
