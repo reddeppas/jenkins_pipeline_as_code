@@ -1,0 +1,86 @@
+{
+	"trains": [
+		{
+			"name": "shatabdi express",
+			"stops": [
+				{
+					"station": "Chennai Central",
+					"status": "ON-TIME",
+					"arrival": "12:00pm",
+					"departure": "12:10pm"
+				},
+				{
+					"station": "Bangalore City Junction",
+					"status": "ON-TIME",
+					"arrival": "1:00pm",
+					"departure": "1:10pm"
+				}
+			]
+		},
+		{
+			"name": "Tejas Express",
+			"stops": [
+				{
+					"station": "Mumbai",
+					"status": "ON-TIME",
+					"arrival": "12:00pm",
+					"departure": "12:10pm"
+				},
+				{
+					"station": "Pune",
+					"status": "DELAYED",
+					"arrival": "1:00pm",
+					"departure": "1:10pm",
+					"delayedArrival": "1:00pm",
+					"delayedDeparture": "1:17pm"
+				}
+			]
+		},
+		{
+			"name": "Sampark Kranti Express",
+			"stops": [
+				{
+					"station": "New Delhi",
+					"status": "ON-TIME",
+					"arrival": "12:00pm",
+					"departure": "12:10pm"
+				},
+				{
+					"station": "Manikpur Junction",
+					"status": "DELAYED",
+					"arrival": "1:00pm",
+					"departure": "1:10pm",
+					"delayedArrival": "1:07pm",
+					"delayedDeparture": "1:17pm"
+				}
+			]
+		},
+		{
+			"name": "Garib Rath Express",
+			"stops": [
+				{
+					"station": "Bangalore",
+					"status": "ON-TIME",
+					"arrival": "12:00pm",
+					"departure": "12:10pm"
+				},
+				{
+					"station": "Mandya",
+					"status": "DELAYED",
+					"arrival": "1:00pm",
+					"departure": "1:10pm",
+					"delayedArrival": "1:07pm",
+					"delayedDeparture": "1:17pm"
+				},
+				{
+					"station": "Mysore",
+					"status": "DELAYED",
+					"arrival": "1:00pm",
+					"departure": "1:10pm",
+					"delayedArrival": "1:07pm",
+					"delayedDeparture": "1:17pm"
+				}
+			]
+		}
+	]
+}
