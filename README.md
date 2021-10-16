@@ -147,4 +147,13 @@ step6: Click on Build Now
 ![image](https://user-images.githubusercontent.com/20655128/137576769-ba402d64-1e89-414f-a6d1-4941e9dfe112.png)
 
 
+**Plugins**
+
+code coverage:
+ cobertura 
+ code coverage API 
+Post Build Task
+SSH Build Agents plugin
+Gradle
+
 
