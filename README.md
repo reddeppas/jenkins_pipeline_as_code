@@ -81,12 +81,12 @@ Mac:
 
 After installtions are done run below commands . Vagrant will spin up unix ubuntu vm 
 
-         ```
+         
           vagrant up
       
           vagrant ssh
         
-         ```
+         
  Add vagrant machine as node in jenkins
  
  click on Manage Jenkins 
